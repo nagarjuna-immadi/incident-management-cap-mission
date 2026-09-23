@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat mta.yaml package.json app/incidents/package.json app/incidents/ui5.yaml app/incidents/xs-app.json xs-security.json; ls app app/incidents app/incidents/dist; ls ../ ; ls mta_archives 2>/dev/null)",
+      "Read(//home/user/projects/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(unzip -l dist/incidents.zip)"
+    ]
+  }
+}
